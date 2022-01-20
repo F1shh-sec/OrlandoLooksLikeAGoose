@@ -1,0 +1,139 @@
+html {
+  font: 20px Arial, sans-serif; }
+
+body h1, body h2 {
+  text-align: center;
+  padding-top: 0.25em; }
+body .RightL {
+  padding: 1em;
+  margin: .5em;
+  border-right: solid #1a1e21 .1em; }
+
+hr {
+  border-top: solid #1a1e21 .1em; }
+
+.contactCard {
+  border-bottom: solid #cececf .11em;
+  padding-bottom: 1em; }
+  .contactCard h1 {
+    font-size: 1.5em; }
+
+.carousel-inner img {
+  margin: auto auto;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.SmallImage {
+  max-width: 100%;
+  height: auto; }
+
+#copyRightInfo {
+  color: #7f7f7f;
+  text-align: center !important;
+  padding-bottom: 2em; }
+
+#pageFoot {
+  text-align: center;
+  padding-bottom: 1.5em; }
+
+#OrlandoCarousel {
+  margin-top: 1.25em;
+  overflow: hidden;
+  max-height: 500px;
+  max-width: 900px; }
+
+#GWInfo {
+  border-bottom: none; }
+
+#contactLeft {
+  border-top: solid #1a1e21 .1em;
+  padding: 1em;
+  padding-top: 0em;
+  margin-top: 1em; }
+
+#contactMid {
+  border-top: solid #1a1e21 .1em;
+  padding: .5em;
+  padding-top: 0em;
+  margin-top: 1em;
+  border-right: solid #1a1e21 .1em;
+  border-left: solid #1a1e21 .1em;
+  padding-bottom: 1em; }
+
+#contactRight {
+  padding: 1em;
+  padding-top: 0em;
+  margin-top: 1em;
+  border-top: solid #1a1e21 .1em; }
+
+#knowMore {
+  text-align: center; }
+
+#knowMoreSmall {
+  text-align: center;
+  display: none; }
+
+.showSmallBr {
+  display: none; }
+
+@media only screen and (max-width: 380px) {
+  #discWig {
+    display: none; }
+
+  #discBr {
+    display: none; } }
+@media only screen and (max-width: 390px) {
+  #OrlandoIcon {
+    display: none !important; }
+
+  .showSmallBr {
+    display: block; }
+
+  .hideSmallBr {
+    display: none; } }
+@media only screen and (max-width: 480px) {
+  #knowMore {
+    display: none; }
+
+  #knowMoreSmall {
+    display: block; } }
+@media only screen and (max-width: 991px) {
+  #contactMid {
+    margin-top: 0;
+    border-top: solid #cececf .11em;
+    border-bottom: solid #cececf .11em;
+    border-right: none;
+    border-left: none; }
+
+  #contactLeft {
+    border: none; }
+    #contactLeft p {
+      margin-bottom: 0; }
+
+  #contactRight {
+    border: none; } }
+@media only screen and (max-width: 1200px) {
+  body {
+    text-align: left; }
+    body #TrueForm {
+      text-align: center; }
+    body #pageFoot {
+      padding-bottom: 1em;
+      text-align: left; }
+    body #copyRightInfo {
+      text-align: center; }
+
+  .RightL {
+    border-style: none !important;
+    padding: .3em !important; }
+
+  #sideTextBox {
+    display: block !important;
+    padding: 0;
+    margin: 0; } }
+@media only screen and (max-width: 1400px) {
+  #sideTextBox {
+    display: none; } }
+
+/*# sourceMappingURL=styles.css.map */
